@@ -3,7 +3,7 @@
 import * as React from 'react'
 import { ActivityIndicator, FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import { Actions } from 'react-native-router-flux'
-import SortableListView from 'react-native-sortable-listview'
+// import SortableListView from 'react-native-sortable-listview'
 import AntDesignIcon from 'react-native-vector-icons/AntDesign'
 import Ionicon from 'react-native-vector-icons/Ionicons'
 import { connect } from 'react-redux'
@@ -109,14 +109,14 @@ class WalletListComponent extends React.Component<Props, State> {
               ListFooterComponent={WalletListFooter}
               ListHeaderComponent={this.renderPromoCard()}
             />
-            <SortableListView
+            {/* <SortableListView
               key="sortList"
               style={StyleSheet.absoltueFill}
               data={wallets}
               order={this.props.activeWalletIds}
               onRowMoved={this.onActiveRowMoved}
               renderRow={this.renderSortableRow}
-            />
+            /> */}
           </CrossFade>
         </View>
         <XPubModal />
