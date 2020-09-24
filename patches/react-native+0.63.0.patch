@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native/scripts/react-native-xcode.sh b/node_modules/react-native/scripts/react-native-xcode.sh
+index 328085f..7d9e81a 100755
+--- a/node_modules/react-native/scripts/react-native-xcode.sh
++++ b/node_modules/react-native/scripts/react-native-xcode.sh
+@@ -128,7 +128,7 @@ BUNDLE_FILE="$DEST/main.jsbundle"
+   --entry-file "$ENTRY_FILE" \
+   --platform ios \
+   --dev $DEV \
+-  --reset-cache \
++  --reset-cache --sourcemap-output ios-release.bundle.map \
+   --bundle-output "$BUNDLE_FILE" \
+   --assets-dest "$DEST" \
+   $EXTRA_PACKAGER_ARGS
