@@ -15,7 +15,4 @@ if [[ "$unamestr" == 'Darwin' ]]; then
   (cd ios; pod repo update; pod install)
 fi
 
-# Fix Android dependencies:
-npx jetify -r
-
 node ./scripts/makeNativeHeaders.js

@@ -96,6 +96,12 @@ pipeline {
       }
     }
 
+    stage ("Jetify dependencies") {
+      steps {
+        sh "yarn jetify"
+      }
+    }
+
     stage ("Test") {
       steps {
         sh "npm run cover"
