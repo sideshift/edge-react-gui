@@ -22,16 +22,22 @@ type Props = {
 const Icon = ({ style, name, size, type }: Props) => {
   switch (type) {
     case Constants.ENTYPO:
+      // $FlowFixMe
       return <Entypo style={style} color={THEME.COLORS.SECONDARY} name={name} size={size} />
     case Constants.MATERIAL_ICONS:
+      // $FlowFixMe
       return <MaterialIcon style={style} color={THEME.COLORS.SECONDARY} name={name} size={size} />
     case Constants.FONT_AWESOME:
+      // $FlowFixMe
       return <FAIcon style={style} color={THEME.COLORS.SECONDARY} name={name} size={size} />
     case Constants.ION_ICONS:
+      // $FlowFixMe
       return <IonIcon style={style} color={THEME.COLORS.SECONDARY} name={name} size={size} />
     case Constants.SIMPLE_ICONS:
+      // $FlowFixMe
       return <SimpleIcon style={style} color={THEME.COLORS.SECONDARY} name={name} size={size} />
     case Constants.MATERIAL_COMMUNITY:
+      // $FlowFixMe
       return <MCIcon style={style} color={THEME.COLORS.SECONDARY} name={name} size={size} />
     default:
       return <FAIcon name="question" color={THEME.COLORS.SECONDARY} style={style} />

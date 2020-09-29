@@ -42,6 +42,7 @@ export class TextAndIconButton extends React.Component<Props, State> {
 
   renderIcon(iconStyle: any, iconPressedStyle: any, iconSize: number) {
     try {
+      // $FlowFixMe
       return <FAIcon style={[iconStyle, this.state.pressed && iconPressedStyle]} name={this.props.icon} size={iconSize} />
     } catch (e) {
       console.log(e)

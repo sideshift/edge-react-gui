@@ -14,6 +14,7 @@ export default class OptionIcon extends React.Component<Props> {
   render() {
     return (
       <FAIcon
+        // $FlowFixMe
         name={this.props.iconName}
         size={scale(24)}
         color={THEME.COLORS.PRIMARY}

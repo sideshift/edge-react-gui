@@ -1,0 +1,27 @@
+diff --git a/node_modules/edge-components/src/Icon/Icon.js b/node_modules/edge-components/src/Icon/Icon.js
+index 3e103a8..c36cab1 100644
+--- a/node_modules/edge-components/src/Icon/Icon.js
++++ b/node_modules/edge-components/src/Icon/Icon.js
+@@ -21,16 +21,22 @@ type Props = {
+ const Icon = ({ style, name, size, type }: Props) => {
+   switch (type) {
+     case Constants.ENTYPO:
++      // $FlowFixMe
+       return <Entypo style={style} name={name} size={size} />
+     case Constants.MATERIAL_ICONS:
++      // $FlowFixMe
+       return <MaterialIcon style={style} name={name} size={size} />
+     case Constants.FONT_AWESOME:
++      // $FlowFixMe
+       return <FAIcon style={style} name={name} size={size} />
+     case Constants.ION_ICONS:
++      // $FlowFixMe
+       return <IonIcon style={style} name={name} size={size} />
+     case Constants.SIMPLE_ICONS:
++      // $FlowFixMe
+       return <SimpleIcon style={style} name={name} size={size} />
+     case Constants.MATERIAL_COMMUNITY:
++      // $FlowFixMe
+       return <MCIcon style={style} name={name} size={size} />
+     default:
+       return <FAIcon name={'question'} style={style} />
