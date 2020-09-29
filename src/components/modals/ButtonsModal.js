@@ -15,7 +15,7 @@ type ButtonInfo = {
 export function ButtonsModal<Buttons: { [key: string]: ButtonInfo }>(props: {
   bridge: AirshipBridge<$Keys<Buttons> | void>,
   title?: string,
-  message?: string,
+  message?: string | React.Node,
   buttons: Buttons
 }) {
   const { bridge, title, message, buttons } = props
