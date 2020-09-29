@@ -441,7 +441,7 @@ export class TransactionDetailsComponent extends React.Component<Props, State> {
                 {thumbnailPath ? (
                   <Image style={styles.tileThumbnail} source={{ uri: thumbnailPath }} />
                 ) : (
-                  <IonIcon style={styles.tileAvatarIcon} name="ios-contact" size={theme.rem(2)} />
+                  <IonIcon style={styles.tileAvatarIcon} name="person" size={theme.rem(2)} />
                 )}
                 <FormattedText style={styles.tileTextBottom}>{personName}</FormattedText>
               </View>

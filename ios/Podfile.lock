@@ -157,7 +157,7 @@ PODS:
     - React
   - RNStoreReview (0.1.5):
     - React
-  - RNVectorIcons (6.1.0):
+  - RNVectorIcons (7.1.0):
     - React
   - yoga (0.59.10.React)
 
@@ -329,7 +329,7 @@ SPEC CHECKSUMS:
   RNShare: 883e13860ebb923bf9f7312187c3d744f546e3bb
   RNSound: da030221e6ac7e8290c6b43f2b5f2133a8e225b0
   RNStoreReview: 62d6afd7c37db711a594bbffca6b0ea3a812b7a8
-  RNVectorIcons: ac7bf6bfeafaf3ad34552cdc6eed6fb8c4b7c940
+  RNVectorIcons: bc69e6a278b14842063605de32bec61f0b251a59
   yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
 
 PODFILE CHECKSUM: 08d7925f21ad0118fdb477099b500ec9a735726d

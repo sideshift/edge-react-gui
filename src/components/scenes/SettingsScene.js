@@ -188,7 +188,7 @@ export class SettingsSceneComponent extends React.Component<Props, State> {
           />
           <SettingsRow
             text={isLocked ? s.strings.settings_button_unlock_settings : s.strings.settings_button_lock_settings}
-            right={<IonIcon name={isLocked ? 'ios-lock' : 'ios-unlock'} color={theme.iconTappable} size={iconSize} />}
+            right={<IonIcon name={isLocked ? 'ios-lock-closed' : 'ios-lock-open'} color={theme.iconTappable} size={iconSize} />}
             onPress={this.showConfirmPasswordModal}
           />
           <SettingsRow
