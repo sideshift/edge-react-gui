@@ -690,6 +690,10 @@ const strings = {
   update_now: 'Update Now',
   update_later: "I'll do it later",
 
+  error_boundary_title: 'Oops',
+  error_boundary_message:
+    'We are sorry, but something has gone wrong. Please report this crash to support@edge.app, and we will try to fix the bug.\n\nFeel free to kill and restart the app.',
+
   export_transaction_date_range: 'Date Range',
   export_transaction_export_type: 'Export Type',
   export_transaction_this_month: 'This Month',
